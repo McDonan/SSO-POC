@@ -23,14 +23,14 @@ The process exits after the first callback.
 
 Copy `.env.example` to `.env` and fill it in.
 
-| Variable | Required | Description |
-|---|---|---|
-| `COGNITO_DOMAIN` | yes | Hosted UI domain URL |
-| `COGNITO_REGION` | yes | User pool region |
-| `COGNITO_USER_POOL_ID` | yes | User pool ID |
-| `COGNITO_APP_CLIENT_ID` | yes | App client ID |
-| `COGNITO_APP_CLIENT_SECRET` | no | App client secret (confidential clients) |
-| `COGNITO_IDP_NAMES` | yes* | Comma-separated provider names, e.g. `Auth0-Poc,Google,Okta` |
+| Variable | Required | Description                                                       |
+|---|---|-------------------------------------------------------------------|
+| `COGNITO_DOMAIN` | yes | Hosted UI domain URL                                              |
+| `COGNITO_REGION` | yes | User pool region                                                  |
+| `COGNITO_USER_POOL_ID` | yes | User pool ID                                                      |
+| `COGNITO_APP_CLIENT_ID` | yes | App client ID                                                     |
+| `COGNITO_APP_CLIENT_SECRET` | no | App client secret (confidential clients)                          |
+| `COGNITO_IDP_NAMES` | yes* | Comma-separated provider names, e.g. `Auth0-Poc,Google-Poc`       |
 | `COGNITO_IDP_NAME` | yes* | Legacy single-provider name, used if `COGNITO_IDP_NAMES` is unset |
 
 ## Run
